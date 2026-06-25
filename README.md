@@ -144,6 +144,10 @@
       * **Tính an toàn tài chính:** Toàn bộ phần tính tiền, áp mã, ví tiền được quản lý bởi Java Spring Boot chặt chẽ, có log đầy đủ, không lo bị can thiệp hay sai lệch số liệu.
         * **Hiệu năng cao:** Tách phần "định vị tài xế" (Real-time) ra Node.js và Redis giúp hệ thống chịu tải tốt. Dù có 10.000 tài xế chạy ngoài đường liên tục gửi tọa độ, hệ thống Backend chính vẫn "bình chân như vại".
           * **Dễ bảo trì:** Logic tính phí được đóng gói riêng. Sau này bạn muốn đổi "5km đầu thành 45.000 VND" hay "Khách VIP chỉ được giảm 50% phí đường", bạn chỉ cần sửa đúng 1 Class Strategy trong code Java mà không ảnh hưởng tới luồng Real-time hay App.
+
+
+
+
     Lần 2:
               Prompt:
                 Phân tích các thực thể cốt lõi vã các thuộc tính quan trọng
